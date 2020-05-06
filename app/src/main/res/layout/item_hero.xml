@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/cardview_default_radius"
+    android:id="@+id/lyt"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nama_hero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/role_hero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Role : " />
+
+        <TextView
+            android:id="@+id/gender_hero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender : " />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
