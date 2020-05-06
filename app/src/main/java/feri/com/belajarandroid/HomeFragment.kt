@@ -47,10 +47,6 @@ class HomeFragment : Fragment() {
             )
         )
 
-        list.forEach {
-            it.nama
-        }
-
         rv_hero.adapter = HeroAdapter(requireContext(),list)
 
     }
